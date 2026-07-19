@@ -234,8 +234,12 @@
     <label>Title / role</label>
     <input type="text" id="titleInput" placeholder="e.g. Aircraft Maintenance Engineer" maxlength="40">
 
-    <label>Affiliation (optional)</label>
-    <input type="text" id="affInput" placeholder="e.g. AWAM Kenya Member" maxlength="30" value="AWAM Kenya Member">
+<label>School/Organisation (optional)</label>
+<input
+  type="text"
+  id="affInput"
+  placeholder="e.g. Nairobi University"
+  maxlength="30">
 
     <label>Poster theme</label>
     <div class="theme-toggle">
@@ -406,7 +410,7 @@ document.getElementById('downloadBtn').addEventListener('click', () => {
   });
 });
 
-const CAPTION = "I\u2019m so excited to be attending the Mentor Mixer with the Association of Women in Aviation Maintenance on the 25th.\nI\u2019m looking forward to meeting mentors who\u2019ve walked this path before me, asking questions, and soaking up as much wisdom and advice as I can. There\u2019s something powerful about learning directly from people who\u2019ve built their careers in this aviation industry.\nIf you\u2019re attending too, I\u2019d love to connect.\nIf you\u2019ll be around, send me a DM, let\u2019s meet up there!\nSee you at the Mentor Mixer! \u2708\ufe0f\n#AWAMKenya #Mentorship #WomenInAviationmaintenance #AviationMaintenance #LiftUpAviation";
+const CAPTION = "Connecting with aviation mentors who've walked this path before, as part of the AWAM Kenya's Community.\n\nI'm excited to be attending the AWAM Kenya Mentor Mixer and looking forward to learning from experienced aviation professionals, building meaningful connections, and growing within Kenya's aviation industry.\n\nIf you're attending too, I'd love to connect. Feel free to send me a DM or say hello during the event!\n\nThank you @Association of Women in Aviation Maintenance, Kenya Chapter for creating opportunities that bring aspiring and experienced aviation professionals together.\n\nSee you at the Mentor Mixer! ✈️\n\n#AWAMKenya #MentorMixer #WomenInAviation #AviationMaintenance #Mentorship #Networking";
 
 document.getElementById('linkedinBtn').addEventListener('click', () => {
   posterBlob(blob => {
